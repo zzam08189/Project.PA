@@ -1,6 +1,6 @@
 services:
-  - type: web
-    name: jarvis-bot
+  - type: worker
+    name: jarvis-pa
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
